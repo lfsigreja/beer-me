@@ -1,12 +1,22 @@
 {
   "name": "beer-me",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/lfsigreja/beer-me.git",
-  "author": "Luis Igreja <lfsigreja@gmail.com>",
-  "license": "MIT",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "webpack-cli",
+    "start:dev": "NODE_ENV=development webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
   "devDependencies": {
-    "stylelint": "^13.13.1",
-    "stylelint-order": "^4.1.0"
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.0",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^2.0.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.16.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.1.0"
   }
 }
