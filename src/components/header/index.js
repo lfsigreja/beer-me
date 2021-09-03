@@ -16,7 +16,7 @@ export default class Header {
           <div class="header-section">
             <a href="index.html"><img src="./assets/logo.svg" alt='logo'></a>
             <div class='search-container'>
-              <input />
+              <input placeholder="Busque por estilo ou sabor" />
                 <button class="btn">
                   <img src='./assets/lupa-icon.svg' alt='carrinho de compra'>
                 </button>
