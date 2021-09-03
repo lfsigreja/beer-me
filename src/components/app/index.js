@@ -1,4 +1,4 @@
-import * as css from './index.css';
+import './index.scss';
 
 export default class App {
   constructor(elem) {
@@ -9,8 +9,8 @@ export default class App {
   render() {
     if (this.elem) {
       this.elem.innerHTML = `
-        <section data-component="app">
-        <h1>App Component</h1>  
+        <section class="app">
+        <h1>hehehehe</h1>  
         <p>The time is: ${new Date().toLocaleString()}</p>
         </section>
         `;
