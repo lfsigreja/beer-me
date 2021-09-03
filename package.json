@@ -1,0 +1,12 @@
+{
+  "name": "beer-me",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lfsigreja/beer-me.git",
+  "author": "Luis Igreja <lfsigreja@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "stylelint": "^13.13.1",
+    "stylelint-order": "^4.1.0"
+  }
+}
