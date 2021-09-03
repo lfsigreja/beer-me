@@ -21,12 +21,31 @@ const config = function (mode) {
           },
         },
         {
+          test: /\.(png|svg|jpe?g|gif)$/i,
+          use: [
+            {
+              loader: 'file-loader',
+              options: {
+                publicPath: 'assets',
+              },
+            },
+          ],
+        },
+        {
           test: /\.html$/,
           exclude: /(node_modules|bower_components)/,
           use: {
             loader: 'html-loader',
             options: {},
           },
+        },
+        {
+          test: /\.(svg)$/,
+          use: [
+            {
+              loader: 'svg-url-loader',
+            },
+          ],
         },
         {
           test: /\.scss$/,

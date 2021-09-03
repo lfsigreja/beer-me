@@ -1,0 +1,89 @@
+.cashback-alert {
+  background: #d3d3d3;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+
+  p {
+    color: #191919;
+
+    strong {
+      background: #ffa94f;
+      font-weight: 700;
+    }
+  }
+}
+
+
+.header-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #fff;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: solid;
+  border-color: #ffa94f;
+
+  img {
+    width: 100;
+  }
+}
+
+.search-container {
+
+  display: flex;
+  align-items: center;
+
+
+  input {
+    width: 500px;
+    height: 40px;
+  }
+
+  button {
+
+    margin-left: 10px;
+  }
+}
+
+.btn {
+  border: 0;
+  border-color: 0;
+  background: none;
+
+  img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+    
+  .cashback-alert {
+    display: none;
+  }
+
+  .header-section {
+
+    img {
+      width: 50px;
+    }
+  }
+
+  .search-container {
+    
+    input {
+      width: 150px;
+      height: 30px;
+    }
+
+    button {
+      margin-left: auto;
+    }
+  }
+}
